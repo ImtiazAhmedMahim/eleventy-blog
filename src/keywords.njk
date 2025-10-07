@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Contact
+pagination:
+  data: collections.post
+  size: 2
+  alias: posts
+---
+
+<div class="section container">
+  <h1 class="section-title">Accounting articles</h1>
+  <ul>
+    {% for post in posts %}
+    <li>{{keywords}}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for keyword in keywords %}
+    <li>
+      <a href="/tag/{{ tagg | slugify }}">{{keyword}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <!-- <ul>
+    {%- for key in keywords-%}
+    <li>{{post.data.keywords}}</li>
+    {%endfor %}
+  </ul> -->
+  <ul role="list" class="articles__list flow">
+    {%- for post in posts | reverse -%} {% include
+    "article-snippet.njk" %} {%endfor %}
+  </ul> 
+  <nav aria-labelledby="my-pagination">
+  <h2 id="my-pagination">This is my Pagination</h2>
+  <ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>P {{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>
+</div>
