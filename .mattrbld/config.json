@@ -15,18 +15,6 @@
       }
     },
     {
-      "icon": "document-add",
-      "label": "Articles",
-      "target": {
-        "name": "Project.Settings",
-        "query": {
-          "tab": "sidebar"
-        }
-      },
-      "onlyPrivileged": true,
-      "showInDashboard": false
-    },
-    {
       "separator": true
     },
     {

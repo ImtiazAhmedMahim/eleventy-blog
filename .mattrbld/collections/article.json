@@ -1,7 +1,7 @@
 {
   "allowedTypes": [],
   "defaultFilename": "datetime",
-  "dir": "/src/article",
+  "dir": "/src/blog",
   "disableComments": false,
   "disablePreview": false,
   "draftByDefault": false,
