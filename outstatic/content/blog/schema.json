@@ -15,11 +15,6 @@
       "dataType": "image",
       "title": "Image"
     },
-    "imageAlt": {
-      "fieldType": "Text",
-      "dataType": "string",
-      "title": "Image Alt"
-    },
     "description": {
       "fieldType": "String",
       "dataType": "string",
