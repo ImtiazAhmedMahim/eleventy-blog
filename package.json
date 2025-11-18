@@ -1,0 +1,21 @@
+{
+  "name": "11ty-blog-site",
+  "version": "1.0.0",
+  "description": "These are the starting files used by [Kevin Powell",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "eleventy-plugin-reading-time": "^0.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "nunjucks": "^3.2.4"
+  }
+}
