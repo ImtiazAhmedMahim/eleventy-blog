@@ -1,0 +1,241 @@
+{
+  "commit": "",
+  "generated": "Tue, 18 Nov 2025 16:28:34 GMT",
+  "metadata": [
+    {
+      "___mb_schema": "/.mattrbld/schemas/article.json",
+      "__outstatic": {
+        "commit": "",
+        "hash": "138579126",
+        "path": "src/blog/2025-10-08-00-14-40-matter.md"
+      },
+      "collection": "blog",
+      "date": "2025-10-08T00:15:00+06:00",
+      "image": "/src/assets/blog/debit-credit-analysis1.webp",
+      "slug": "2025-10-08-00-14-40-matter",
+      "tags": [
+        "post",
+        "featured"
+      ],
+      "title": "Defining Your First Schema"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "3323387931",
+        "path": "src/blog/7.md"
+      },
+      "author": "Writer 7th",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "eleventyNavigation": {
+        "key": "Avocadevra",
+        "order": 1,
+        "parent": "Mammals"
+      },
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "slug": "7",
+      "tags": [
+        "post",
+        "finance"
+      ],
+      "title": "7th article"
+    },
+    {
+      "___mb_schema": "/.mattrbld/schemas/article.json",
+      "__outstatic": {
+        "commit": "",
+        "hash": "3869552513",
+        "path": "src/blog/2025-10-09-17-07-52-testing.md"
+      },
+      "collection": "blog",
+      "date": "2025-10-09T17:08:12+06:00",
+      "image": "/src/assets/blog/anna-0n0-ahb-1fg-tq-unsplash.jpg",
+      "slug": "2025-10-09-17-07-52-testing",
+      "tags": [
+        "featured"
+      ],
+      "title": "Single Source of Truth"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "2771083859",
+        "path": "src/blog/6.md"
+      },
+      "author": "Imtiaz 6th",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "eleventyNavigation": {
+        "key": "Eagles",
+        "order": 2,
+        "parent": "Mammals"
+      },
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "slug": "6",
+      "tags": [
+        "post",
+        "accounting",
+        "finance",
+        "technologia"
+      ],
+      "title": "6th article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "4109131308",
+        "path": "src/blog/2nd-article copy.md"
+      },
+      "author": "Imtiaz hjf",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "eleventyNavigation": {
+        "key": "Avocado",
+        "order": 3,
+        "parent": "Mammals"
+      },
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "slug": "2nd-article copy",
+      "tags": [
+        "post",
+        "accounting",
+        "finance"
+      ],
+      "title": "Mahims 2nd article copy"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "1249103068",
+        "path": "src/blog/2nd-article.md"
+      },
+      "author": "Imtiaz Mahim",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "slug": "2nd-article",
+      "tags": [
+        "post",
+        "featured",
+        "finance"
+      ],
+      "title": "Mahims 2nd article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "824941114",
+        "path": "src/blog/8.md"
+      },
+      "author": "Writer 8th",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "eleventyNavigation": {
+        "key": "Mammals"
+      },
+      "image": "/assets/blog/article-3.jpg",
+      "imageAlt": "This is a test",
+      "slug": "8",
+      "tags": [
+        "post",
+        "finance",
+        "technologia"
+      ],
+      "title": "8th article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "2947337214",
+        "path": "src/blog/third.md"
+      },
+      "author": "Imtiaz Mahim",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "keywords": [
+        "tech",
+        "accounting"
+      ],
+      "slug": "third",
+      "tags": [
+        "post",
+        "featured",
+        "accounting"
+      ],
+      "title": "Mahims 3rd article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "335836849",
+        "path": "src/blog/first-article.md"
+      },
+      "author": "Imtiaz Mahim",
+      "collection": "blog",
+      "date": "2024-03-03T00:00:00.000Z",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "keywords": [
+        "tech",
+        "phone"
+      ],
+      "slug": "first-article",
+      "tags": [
+        "post",
+        "featured"
+      ],
+      "title": "Mahims first article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "1225885226",
+        "path": "src/blog/fifth.md"
+      },
+      "author": "Imtiaz Mahim",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "slug": "fifth",
+      "tags": [
+        "post",
+        "featured",
+        "accounting"
+      ],
+      "title": "Mahims 5th article"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "4030294076",
+        "path": "src/blog/fourth.md"
+      },
+      "author": "Imtiaz Mahim",
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "/assets/blog/article-1.jpg",
+      "imageAlt": "This is a test",
+      "keywords": [
+        "laptop",
+        "pc build"
+      ],
+      "slug": "fourth",
+      "tags": [
+        "post",
+        "featured",
+        "accounting",
+        "this tag"
+      ],
+      "title": "Mahims 4th article"
+    }
+  ]
+}
