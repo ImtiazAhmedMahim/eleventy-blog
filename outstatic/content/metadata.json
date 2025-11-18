@@ -1,6 +1,6 @@
 {
-  "commit": "",
-  "generated": "Tue, 18 Nov 2025 16:28:34 GMT",
+  "commit": "3052fa75be5183a95c1a68c26b43a746a4badcc2",
+  "generated": "2025-11-18T16:33:07.376Z",
   "metadata": [
     {
       "___mb_schema": "/.mattrbld/schemas/article.json",
@@ -106,25 +106,6 @@
         "finance"
       ],
       "title": "Mahims 2nd article copy"
-    },
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "1249103068",
-        "path": "src/blog/2nd-article.md"
-      },
-      "author": "Imtiaz Mahim",
-      "collection": "blog",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
-      "image": "/assets/blog/article-1.jpg",
-      "imageAlt": "This is a test",
-      "slug": "2nd-article",
-      "tags": [
-        "post",
-        "featured",
-        "finance"
-      ],
-      "title": "Mahims 2nd article"
     },
     {
       "__outstatic": {
@@ -236,6 +217,30 @@
         "this tag"
       ],
       "title": "Mahims 4th article"
+    },
+    {
+      "__outstatic": {
+        "commit": "3052fa75be5183a95c1a68c26b43a746a4badcc2",
+        "hash": "1170666244",
+        "path": "src/blog/2nd-article.md"
+      },
+      "author": {
+        "name": "",
+        "picture": ""
+      },
+      "collection": "blog",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?",
+      "image": "",
+      "imageAlt": "This is a test",
+      "publishedAt": "2025-11-18T17:06:32.057Z",
+      "slug": "2nd-article",
+      "status": "published",
+      "tags": [
+        "post",
+        "featured",
+        "finance"
+      ],
+      "title": "Mahims 2nd article"
     }
   ]
 }

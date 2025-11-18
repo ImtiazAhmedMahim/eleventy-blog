@@ -6,7 +6,9 @@
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags",
-      "values": []
+      "values": [
+        {}
+      ]
     },
     "image": {
       "fieldType": "Image",
