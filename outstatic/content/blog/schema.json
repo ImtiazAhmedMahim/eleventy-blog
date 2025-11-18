@@ -12,6 +12,11 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Image"
+    },
+    "imageAlt": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Image Alt"
     }
   }
 }
