@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: base.njk
 title: Blog Page
@@ -12,3 +13,19 @@ title: Blog Page
 </div> 
 {# {% for post in collections.post | reverse %} {% if loop.index0 < 3 %} {% include
 "article-snippet.njk" %} {% endif %}  {% endfor %} #}
+=======
+---
+layout: base.njk
+title: Blog Page
+---
+
+<div class="section container">
+  <h1 class="section-title">Recent articles</h1>
+  <ul role="list" class="articles__list flow">
+    {% for post in collections.post | reverse %} {% if loop.index0 < 3 %} {% include
+"article-snippet.njk" %} {% endif %}  {% endfor %}
+  </ul>
+</div> 
+{# {% for post in collections.post | reverse %} {% if loop.index0 < 3 %} {% include
+"article-snippet.njk" %} {% endif %}  {% endfor %} #}
+>>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817

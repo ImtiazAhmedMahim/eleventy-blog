@@ -1,0 +1,37 @@
+{
+  "title": "blog",
+  "type": "object",
+  "properties": {
+    "tags": {
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags",
+      "values": [
+        {},
+        {
+          "value": "outstatic",
+          "label": "outstatic"
+        },
+        {
+          "value": "newcms",
+          "label": "newcms"
+        }
+      ]
+    },
+    "image": {
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Image"
+    },
+    "description": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Description"
+    },
+    "imageAlt": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Image Alt"
+    }
+  }
+}

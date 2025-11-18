@@ -1,0 +1,83 @@
+{
+  "commit": "",
+  "generated": "Tue, 18 Nov 2025 16:30:19 GMT",
+  "media": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/anna-0n0-ahb-1fg-tq-unsplash.jpg"
+      },
+      "alt": "",
+      "filename": "anna-0n0-ahb-1fg-tq-unsplash.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/article-1.jpg"
+      },
+      "alt": "",
+      "filename": "article-1.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/article-2.jpg"
+      },
+      "alt": "",
+      "filename": "article-2.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/article-3.jpg"
+      },
+      "alt": "",
+      "filename": "article-3.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/article-4.jpg"
+      },
+      "alt": "",
+      "filename": "article-4.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/article-5.jpg"
+      },
+      "alt": "",
+      "filename": "article-5.jpg",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "0",
+        "path": "src/assets/blog/debit-credit-analysis1.webp"
+      },
+      "alt": "",
+      "filename": "debit-credit-analysis1.webp",
+      "publishedAt": "2025-11-18T16:30:18.848Z",
+      "type": "image"
+    }
+  ]
+}

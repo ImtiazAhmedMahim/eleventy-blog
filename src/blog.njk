@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: base.njk
 title: Blog Page
@@ -23,3 +24,30 @@ pagination:
     >Next</a
   >{% else %}{% endif %}
 </div>
+=======
+---
+layout: base.njk
+title: Blog Page
+pagination:
+  data: collections.post
+  size: 2
+  alias: post
+---
+
+<div class="section container">
+  <h1 class="section-title">Recent articles</h1>
+  <ul role="list" class="articles__list flow">
+    {%- for post in post | reverse -%} {% include "article-snippet.njk" %}
+    {%endfor %}
+  </ul>
+  {% if pagination.href.previous %}<a
+    href="{{ pagination.href.previous }}"
+    class="btn btn--primary"
+    >Previous</a
+  >{% else %}{% endif %} {% if pagination.href.next %}<a
+    href="{{ pagination.href.next }}"
+    class="btn btn--primary"
+    >Next</a
+  >{% else %}{% endif %}
+</div>
+>>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817

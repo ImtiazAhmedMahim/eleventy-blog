@@ -1,0 +1,96 @@
+---
+title: "This is first blog post using outstatic cms "
+publishedAt: "2025-11-18T17:10:21.272Z"
+status: "published"
+author:
+  name: "Outstatic CMS"
+  picture: "https://avatars.githubusercontent.com/u/161200869?v=4"
+slug: "this-is-first-blog-post-using-outstatic-cms"
+tags:
+  - label: "outstatic"
+    value: "outstatic"
+  - label: "newcms"
+    value: "newcms"
+image: "/uploads/anna-0n0-ahb-1fg-tq-unsplash.jpg"
+description: "Good to know: To get your repository slug we first try fetching the OST_REPO_SLUG environment variable. If that is empty, we try VERCEL_GIT_REPO_SLUG, which is one of Vercel's default environment variables. If both are empty, you'll get a warning saying you need to add OST_REPO_SLUG to your environment variables.  Important: Don't forget to redeploy your website or restart your server after updating environment variables."
+imageAlt: "Image Caption"
+---
+
+```
+const menuBtn = document.getElementById("menu-btn");
+const menuRoot = document.getElementById("mobile-menu-root");
+const menuBackdrop = document.getElementById("menu-backdrop");
+const mobilePanel = document.getElementById("mobile-panel");
+const menuClose = document.getElementById("menu-close");
+function openMenu() {
+  menuRoot.classList.remove("pointer-events-none");
+  menuBackdrop.classList.remove("opacity-0");
+  menuBackdrop.classList.add("opacity-100");
+  mobilePanel.classList.remove("-translate-x-full");
+  mobilePanel.classList.add("translate-x-0");
+  menuBtn.setAttribute("aria-expanded", "true");
+  // animate hamburger -> X (simple morph by replacing inner svg)
+  document.getElementById("hamburger").innerHTML =
+    '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
+  // move focus to first link for keyboard users
+  const firstLink = mobilePanel.querySelector("a");
+  if (firstLink) firstLink.focus();
+  // listen for ESC
+  document.addEventListener("keydown", onKeyDown);
+}
+
+function closeMenu() {
+  menuBackdrop.classList.remove("opacity-100");
+  menuBackdrop.classList.add("opacity-0");
+  mobilePanel.classList.remove("translate-x-0");
+  mobilePanel.classList.add("-translate-x-full");
+  menuBtn.setAttribute("aria-expanded", "false");
+  // restore hamburger icon
+  document.getElementById("hamburger").innerHTML =
+    '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+  // remove pointer-events after transition ends to allow clicks through when closed
+  setTimeout(() => menuRoot.classList.add("pointer-events-none"), 320);
+  document.removeEventListener("keydown", onKeyDown);
+}
+function onKeyDown(e) {
+  if (e.key === "Escape") closeMenu();
+}
+menuBtn.addEventListener("click", () => {
+  const expanded = menuBtn.getAttribute("aria-expanded") === "true";
+  if (expanded) closeMenu();
+  else openMenu();
+});
+menuBackdrop.addEventListener("click", closeMenu);
+menuClose.addEventListener("click", closeMenu);
+// Close on viewport resize up to md (so if they rotate the device or enlarge)
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 768) {
+    // ensure the mobile menu is closed on wider screens
+    closeMenu();
+  }
+});
+// Reading Progress Bar
+const progressBar = document.getElementById("progressBar");
+if (progressBar)
+  window.addEventListener("scroll", () => {
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    progressBar.style.width = scrolled + "%";
+  }); 
+```
+
+> There is code above this line
+
+`Good to know: To get your repository slug we first try fetching the OST_REPO_SLUG environment variable. If that is empty, we try VERCEL_GIT_REPO_SLUG, which is one of Vercel's default environment variables. If both are empty, you'll get a warning saying you need to add OST_REPO_SLUG to your environment variables.`\
+\
+`Important: Don't forget to redeploy your website or restart your server after updating environment variables. `
+
+***Good to know: To get your repository slug we first try fetching the*** `OST_REPO_SLUG` ***environment variable. If that is empty, we try*** `VERCEL_GIT_REPO_SLUG`***, which is one of Vercel's default environment variables. If both are empty, you'll get a warning saying you need to add*** `OST_REPO_SLUG` ***to your environment variables.\
+\
+Important: Don't forget to redeploy your website or restart your server after updating environment variables.***
+
+***~~Don't do that~~***

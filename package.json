@@ -11,11 +11,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@11ty/eleventy": "^2.0.1",
+>>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817
     "@11ty/eleventy-navigation": "^1.0.4",
     "eleventy-plugin-reading-time": "^0.0.1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@11ty/eleventy": "^3.1.2",
+=======
+>>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817
     "nunjucks": "^3.2.4"
   }
 }

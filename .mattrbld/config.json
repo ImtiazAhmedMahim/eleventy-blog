@@ -1,0 +1,72 @@
+{
+  "autoquotes": null,
+  "brandColors": [],
+  "corsProxy": "http://localhost:9999",
+  "name": "eleventy-blog",
+  "sidebar": [
+    {
+      "icon": null,
+      "label": "article",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/article.json"
+        }
+      }
+    },
+    {
+      "separator": true
+    },
+    {
+      "label": "Dashboard",
+      "icon": "grid",
+      "target": {
+        "name": "Project"
+      },
+      "protected": true
+    },
+    {
+      "label": "Media Library",
+      "icon": "image-stack",
+      "target": {
+        "name": "Project.MediaLibrary"
+      },
+      "protected": true
+    },
+    {
+      "label": "Settings",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true
+    }
+  ],
+  "slugifyOptions": {
+    "customReplacements": [],
+    "lowercase": true,
+    "decamelize": true,
+    "preserveLeadingUnderscore": true,
+    "preserveTrailingDash": false,
+    "preserveCharacters": [],
+    "separator": "-",
+    "transliterate": true
+  },
+  "customRoles": [],
+  "draftsDir": null,
+  "previewUrl": null,
+  "languages": [],
+  "media": {
+    "advanced": false,
+    "customFields": null,
+    "dir": "/src/assets/blog",
+    "maxSize": null,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}

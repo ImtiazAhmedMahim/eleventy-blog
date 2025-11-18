@@ -1,0 +1,20 @@
+{
+  "allowedTypes": [],
+  "defaultFilename": "datetime",
+  "dir": "/src/blog",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "schemas": [
+    "/.mattrbld/schemas/article.json"
+  ],
+  "linkable": true,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "md",
+  "urlTemplate": ""
+}

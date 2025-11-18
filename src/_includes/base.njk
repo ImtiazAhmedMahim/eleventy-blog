@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,4 +19,25 @@
 	{% include "footer.njk" %}
 	<script src="/script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	{% include "header.njk" %}
+	<div>{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }} </div>
+	
+	<main>
+		{{ content | safe }}
+	</main>
+	
+	{% include "footer.njk" %}
+	<script src="/script.js"></script>
+</body>
+>>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817
 </html>
