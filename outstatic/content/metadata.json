@@ -1,6 +1,6 @@
 {
-  "commit": "3052fa75be5183a95c1a68c26b43a746a4badcc2",
-  "generated": "2025-11-18T16:33:07.376Z",
+  "commit": "40e876e708447f02634082621e54b749c50aa00b",
+  "generated": "2025-11-18T16:42:01.567Z",
   "metadata": [
     {
       "___mb_schema": "/.mattrbld/schemas/article.json",
@@ -241,6 +241,35 @@
         "finance"
       ],
       "title": "Mahims 2nd article"
+    },
+    {
+      "__outstatic": {
+        "commit": "40e876e708447f02634082621e54b749c50aa00b",
+        "hash": "4089212163",
+        "path": "src/blog/this-is-first-blog-post-using-outstatic-cms.mdx"
+      },
+      "author": {
+        "name": "Outstatic CMS",
+        "picture": "https://avatars.githubusercontent.com/u/161200869?v=4"
+      },
+      "collection": "blog",
+      "description": "Good to know: To get your repository slug we first try fetching the OST_REPO_SLUG environment variable. If that is empty, we try VERCEL_GIT_REPO_SLUG, which is one of Vercel's default environment variables. If both are empty, you'll get a warning saying you need to add OST_REPO_SLUG to your environment variables.  Important: Don't forget to redeploy your website or restart your server after updating environment variables.",
+      "image": "/uploads/anna-0n0-ahb-1fg-tq-unsplash.jpg",
+      "imageAlt": "Image Caption",
+      "publishedAt": "2025-11-18T17:10:21.272Z",
+      "slug": "this-is-first-blog-post-using-outstatic-cms",
+      "status": "published",
+      "tags": [
+        {
+          "label": "outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "newcms",
+          "value": "newcms"
+        }
+      ],
+      "title": "This is first blog post using outstatic cms "
     }
   ]
 }

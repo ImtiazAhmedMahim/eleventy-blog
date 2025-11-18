@@ -7,7 +7,15 @@
       "dataType": "array",
       "title": "Tags",
       "values": [
-        {}
+        {},
+        {
+          "value": "outstatic",
+          "label": "outstatic"
+        },
+        {
+          "value": "newcms",
+          "label": "newcms"
+        }
       ]
     },
     "image": {
