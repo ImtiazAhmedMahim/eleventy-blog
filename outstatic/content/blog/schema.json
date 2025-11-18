@@ -1,6 +1,12 @@
 {
-  "title": "Blog",
-  "slug": "blog",
+  "title": "blog",
   "type": "object",
-  "properties": {}
+  "properties": {
+    "tags": {
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags",
+      "values": []
+    }
+  }
 }
