@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 {
 	"layout": "article.njk",
 	"tags": "post"
-=======
-{
-	"layout": "article.njk",
-	"tags": "post"
->>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817
 }

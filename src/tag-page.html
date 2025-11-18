@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: base.njk
 
@@ -22,28 +21,3 @@ eleventyComputed:
     "article-snippet.njk" %} {% endfor %}
   </ul>
 </div>
-=======
----
-layout: base.njk
-
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - post
-permalink: /tags/{{ tag | slugify }}/index.html
-eleventyComputed:
-  title: Posts Tagged “{{ tag }}”
----
-
-<!-- {{ tag }} This should be same as Alias  -->
-<div class="section container">
-  <h1>Posts Tagged “{{ tag }}”</h1>
-  <ul role="list" class="articles__list flow">
-    {%- for post in collections[tag] reversed -%} {% include
-    "article-snippet.njk" %} {% endfor %}
-  </ul>
-</div>
->>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817

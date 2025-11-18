@@ -24,8 +24,8 @@
       "title": "Image"
     },
     "description": {
-      "fieldType": "String",
-      "dataType": "string",
+      "fieldType": "Text",
+      "dataType": "text",
       "title": "Description"
     },
     "imageAlt": {

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Contact
 pagination:
@@ -23,29 +22,3 @@ pagination:
   class="btn btn--primary"
   >Next</a
 >{% else %}{% endif %} -->
-=======
----
-title: Contact
-pagination:
-  data: collections.accounting
-  size: 2
-  alias: accounting
----
-
-<h1 class="section-title">Accounting articles</h1>
-<ul role="list" class="articles__list flow">
-  {%- for post in accounting -%} {% include "article-snippet.njk" %} {%endfor %}
-</ul>
-<!-- <div class="section container">
-  
-</div> -->
-<!-- {% if pagination.href.previous %}<a
-  href="{{ pagination.href.previous }}"
-  class="btn btn--primary"
-  >Previous</a
->{% else %}{% endif %} {% if pagination.href.next %}<a
-  href="{{ pagination.href.next }}"
-  class="btn btn--primary"
-  >Next</a
->{% else %}{% endif %} -->
->>>>>>> 024a96926a16339a4f5bcfb5b2a19ba10b94a817
