@@ -1,6 +1,6 @@
 {
-  "commit": "",
-  "generated": "Tue, 18 Nov 2025 17:47:49 GMT",
+  "commit": "610c291941ff22d878d45f0a5987007b63ac3169",
+  "generated": "2025-11-18T17:51:57.653Z",
   "metadata": [
     {
       "___mb_schema": "/.mattrbld/schemas/article.json",
@@ -265,6 +265,27 @@
         "accounting"
       ],
       "title": "Mahims 5th article"
+    },
+    {
+      "__outstatic": {
+        "commit": "610c291941ff22d878d45f0a5987007b63ac3169",
+        "hash": "3532504877",
+        "path": "src/blog/this-is-second-post-using-outstatic.mdx"
+      },
+      "author": {
+        "name": "Outstatic CMS Two",
+        "picture": "https://avatars.githubusercontent.com/u/161200869?v=4"
+      },
+      "collection": "blog",
+      "description": "A body corporate comprises of various stakeholders, such as shareholders, creditors, debtors, customers, suppliers, market intermediaries, competitors, employees, partners, government and society.",
+      "image": "https://businessjargons.com/wp-content/uploads/2020/03/corporate-governance.jpg",
+      "imageAlt": "Corporate",
+      "publishedAt": "2025-11-19T18:00:00.000Z",
+      "slug": "this-is-second-post-using-outstatic",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "This is second post using Outstatic"
     }
   ]
 }
