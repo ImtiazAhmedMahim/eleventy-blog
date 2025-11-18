@@ -17,6 +17,11 @@
       "fieldType": "Text",
       "dataType": "string",
       "title": "Image Alt"
+    },
+    "description": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Description"
     }
   }
 }
