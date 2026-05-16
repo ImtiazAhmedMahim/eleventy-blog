@@ -5,7 +5,7 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: src/articles
+    path: src/article
     fields:
       - name: title
         type: string
@@ -15,3 +15,11 @@ content:
         type: date
       - name: image
         type: image
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          media: content_images
+          path: assets/blog
+          rename: true
+          switcher: true
