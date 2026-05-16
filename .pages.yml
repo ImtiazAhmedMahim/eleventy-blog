@@ -1,6 +1,6 @@
 media:
-  input: assets/blog
-  output: assets/blog
+  input: src/assets/blog
+  output: src/ssets/blog
 content:
   - name: posts
     label: Posts
@@ -10,7 +10,7 @@ content:
       - name: title
         type: string
       - name: description
-        type: rich-text
+        type: string
       - name: date
         type: date
       - name: image
@@ -18,8 +18,3 @@ content:
       - name: body
         label: Body
         type: rich-text
-        options:
-          media: content_images
-          path: assets/blog
-          rename: true
-          switcher: true
