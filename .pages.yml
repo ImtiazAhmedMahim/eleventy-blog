@@ -6,11 +6,15 @@ content:
     label: Posts
     type: collection
     path: src/article
+    filename: "{year}-{month}-{day}-{hour}-{minute}-{title}.md"
     fields:
       - name: title
         type: string
       - name: description
         type: string
+      - name: tags
+        type: string
+        list: true
       - name: date
         type: date
       - name: image
