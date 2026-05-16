@@ -18,3 +18,19 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: article
+    label: Articles
+    type: collection
+    path: src/articles
+    fields:
+      - name: title
+        type: string
+      - name: description
+        type: string
+      - name: date
+        type: date
+      - name: image
+        type: image
+      - name: body
+        label: Body
+        type: rich-text     
