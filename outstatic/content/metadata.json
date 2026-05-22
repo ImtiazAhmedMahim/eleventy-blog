@@ -1,6 +1,6 @@
 {
-  "commit": "610c291941ff22d878d45f0a5987007b63ac3169",
-  "generated": "2025-11-18T17:51:57.653Z",
+  "commit": "7f8471faa165349a3ac6c100c56633a88fc527f5",
+  "generated": "2026-05-22T06:39:19.483Z",
   "metadata": [
     {
       "___mb_schema": "/.mattrbld/schemas/article.json",
@@ -286,6 +286,24 @@
       "tags": [
       ],
       "title": "This is second post using Outstatic"
+    },
+    {
+      "__outstatic": {
+        "commit": "7f8471faa165349a3ac6c100c56633a88fc527f5",
+        "hash": "1827776454",
+        "path": "src/blog/may-22-2026.mdx"
+      },
+      "author": {
+        "name": "Mahim",
+        "picture": "https://avatars.githubusercontent.com/u/161200869?v=4"
+      },
+      "collection": "blog",
+      "publishedAt": "2026-05-22T07:14:12.401Z",
+      "slug": "may-22-2026",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "May 22, 2026"
     }
   ]
 }
