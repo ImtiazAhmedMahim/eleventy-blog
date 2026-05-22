@@ -6,7 +6,11 @@ content:
     label: Posts
     type: collection
     path: src/article
-    filename: "{year}-{month}-{day}-{hour}-{minute}-{title}.md"
+    operations:
+      rename: true
+      delete: true
+      create: true
+    filename: "{year}-{month}-{day}-{title}-{hour}-{minute}.md"
     fields:
       - name: title
         type: string
@@ -26,6 +30,10 @@ content:
     label: Articles
     type: collection
     path: src/articles
+    operations:
+      rename: true
+      delete: true
+      create: true
     fields:
       - name: title
         type: string
